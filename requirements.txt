@@ -2,3 +2,6 @@
 streamlit==1.10.0
 google-generativeai
 altair==4.2.2
+setuptools  # Fixes distutils error
+google-api-python-client  # Sometimes needed for authentication
+
